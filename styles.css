@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+header{
+  width: 100%;
+  background-color: rgb(191, 145, 243);
+  padding: 20px;
+}
+  
+h1{
+  display: inline-block;
+  color: white;
+}
+
+p{
+  width: 80%;
+  margin-left: 27px;
+}
+  
+.ul-header{
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+
+.li-header{
+  display: inline;
+  color: black;
+  margin-left: 15px;
+}
+.li-header:hover{
+    color: purple;
+    cursor: pointer;
+  }
+
+.caixa-adotar{
+  margin: 20px 20px;
+}
+
+.titulo{
+  margin-bottom: 10px;
+}
+
+.caixa-adotar button{
+  margin-right: 10px;
+}
+
+.caixa-sobre, .caixa-img{
+  width: 90%;
+  margin: 0px 20px;
+}
+
+.caixa-sobre h2,p{
+  margin-bottom: 10px;
+}
+
+.img-luna{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  transition: 2s all;
+}
+.img-luna:hover{
+  transform: rotate(360deg);
+  border-radius: 200px;
+  border:2px solid black;
+}
+
+
+.luna{
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  border-bottom: 2px solid lightgray;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin: 20px 20px;
+  transition: 1s all;
+  overflow: hidden;
+}
+
+.luna:hover{
+  transform: scale(1.1);
+  background: aqua;
+}
+
+.img-dogs{
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  border-bottom: 2px solid lightgray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  transition: 1s all;
+}
+
+.img-dogs:hover{
+  transform: scale(1.1);
+  background: aqua;
+}
+
+figcaption{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+button{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  background: rgb(226, 134, 199);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Aqui começa o mobile */
+@media(max-width: 455px){
+ul{
+  margin-top: 20px;
+  display: block;
+  text-align: initial;
+}
+  
+li{
+  display: block;
+  margin-left: 0px;
+  margin-top: 10px;
+} 
+}
+
+@media(max-width: 268px){
+  .caixa-adotar button{
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 253px){
+  .img-dogs, .luna{
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .img-luna{
+    width: 70%;
+  }
+}
+
+.img-footer{
+  width: 30px;
+  height: 30px;
+  left: 27px;
+  top: 2082px;
+}
+
+footer{
+  margin-left: 27px;
+}
